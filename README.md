@@ -7,5 +7,5 @@
 *
 * Pyfolio: 交易策略績效與風險視覺化。
 ## 策略範例 (Example)
-* 布林通道交易策略 [布林通道交易策略](https://www.tejwin.com/wp-admin/post.php?post=15388&action=edit)
+* [布林通道交易策略](https://www.tejwin.com/wp-admin/post.php?post=15388&action=edit)
 *
