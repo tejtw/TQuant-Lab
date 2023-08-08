@@ -9,6 +9,7 @@
 * Creating a pipeline: 建立 pipeline 教學。
 * Factor: 介紹因子使用方法。
 * Custom Factor: 客製化因子。
+* Pipeline example: 介紹 Pipeline 於交易策略使用方法與 before_trading_start 及 schedule_function 函式。
 * Pyfolio: 交易策略績效與風險視覺化。
 
 ## 策略範例 (Example)
