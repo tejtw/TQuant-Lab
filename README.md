@@ -5,6 +5,7 @@
 * Install TQuant Lab: 安裝 TQuant lab。
 * Data collection: 股票價量資料的下載方法。
 * Zipline order (order & order_target): 下單方法介紹(一)
+* Zipline order (value & target_value): 下單方法介紹(二)
 * Zipline slippage: 滑價設置方法介紹。
 * Creating a pipeline: 建立 pipeline 教學。
 * Factor: 介紹因子使用方法。
