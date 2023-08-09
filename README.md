@@ -2,7 +2,7 @@
 使用文件、程式範例
 
 ## 操作教材 (Lecture)
-* Install TQuant Lab: 安裝 TQuant lab。
+* [Install TQuant Lab](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Install%20TQuant%20Lab.ipynb): 安裝 TQuant lab。
 * Data collection: 股票價量資料的下載方法。
 * Zipline order (order & order_target): 下單方法介紹(一)
 * Zipline order (value & target_value): 下單方法介紹(二)
