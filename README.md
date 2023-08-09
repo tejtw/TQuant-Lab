@@ -11,7 +11,7 @@
 * [Creating a pipeline](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Creating%20a%20Pipeline.ipynb): 建立 pipeline 教學。
 * [Factor](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Factors.ipynb): 介紹因子使用方法。
 * [Custom Factor](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Custom%20Factors.ipynb): 客製化因子。
-* [Pipeline example](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pipeline%20example.ipynb): 介紹 Pipeline 於交易策略使用方法與 before_trading_start 及 schedule_function 函式。(請下載閱讀)
+* [Pipeline example](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pipeline%20example.ipynb): 介紹 Pipeline 於交易策略使用方法與 before_trading_start 及 schedule_function 函式 (請下載閱讀)。
 * [Pyfolio](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pyfolio.ipynb): 交易策略績效與風險視覺化。
 
 ## 策略範例 (Example)
