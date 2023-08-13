@@ -4,7 +4,7 @@
 ## 操作教材 (Lecture)
 * [Install TQuant Lab](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Install%20TQuant%20Lab.ipynb): 安裝 TQuant lab。
 * [Data collection](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Data%20collection.ipynb): 股票價量資料的下載方法。
-* [TSMC buy and hold strategy](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/TSMC%20buy%20and%20hold%20strategy.ipynb): 以買進持有策略示範 zipline 交易策略結構與四大基礎函式 initialize, handle_data, analyze 與 run_algorithm。
+* [TSMC buy and hold strategy](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/TSMC%20buy%20and%20hold%20strategy.ipynb): 以買進持有策略示範 zipline c回測架構與四大基礎函式 initialize, handle_data, analyze 與 run_algorithm。
 * [Zipline order (order & order_target)](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Zipline%20Order%20(order%20%26%20order_target).ipynb): 下單方法介紹(一)
 * [Zipline order (value & target_value)](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Zipline%20Order%20(value%20%26%20target_value).ipynb): 下單方法介紹(二)
 * [Zipline order (percent & target_percent)](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Zipline%20Order%20(percent%20%26%20target_percent).ipynb): 下單方法介紹(三)
