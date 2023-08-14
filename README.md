@@ -16,6 +16,7 @@
 * [Custom Factor](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Custom%20Factors.ipynb): 客製化因子。
 * [Pipeline built-in factor](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pipeline%20built-in%20factors.ipynb): 內建的因子。
 * [Pipeline built-in filter](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pipeline%20built-in%20filters.ipynb): 內建的濾網。
+* [TejToolAPI](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/TejToolAPI.ipynb): TejToolAPI 介紹。
 * [Pipeline example](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pipeline%20example.ipynb): 介紹 Pipeline 於交易策略使用方法與 before_trading_start 及 schedule_function 函式 (請下載閱讀)。
 * [Pyfolio](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pyfolio.ipynb): 交易策略績效與風險視覺化。
 
