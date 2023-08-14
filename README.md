@@ -21,5 +21,7 @@
 * [Pyfolio](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pyfolio.ipynb): 交易策略績效與風險視覺化。
 
 ## 策略範例 (Example)
-* [布林通道交易策略](https://www.tejwin.com/wp-admin/post.php?post=15388&action=edit)
-*
+* [布林通道交易策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/%E5%B8%83%E6%9E%97%E9%80%9A%E9%81%93%E4%BA%A4%E6%98%93%E7%AD%96%E7%95%A5.ipynb)
+* [乖離率策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/%E4%B9%96%E9%9B%A2%E7%8E%87%E7%AD%96%E7%95%A5.ipynb)
+* [量能回測實戰](https://github.com/tejtw/TQuant-Lab/blob/main/example/%E9%87%8F%E8%83%BD%E5%9B%9E%E6%B8%AC%E5%AF%A6%E6%88%B0.ipynb)
+* [MACD 指標回測實戰](https://github.com/tejtw/TQuant-Lab/blob/main/example/MACD%E6%8C%87%E6%A8%99%E5%9B%9E%E6%B8%AC%E5%AF%A6%E6%88%B0.ipynb)
