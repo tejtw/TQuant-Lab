@@ -14,6 +14,7 @@
 * [Filter](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Filters.ipynb): 介紹濾網使用方法。
 * [Masking](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Masking.ipynb): 介紹遮網使用方法。 
 * [Custom Factor](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Custom%20Factors.ipynb): 客製化因子。
+* [Pipeline built-in factor](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pipeline%20built-in%20factors.ipynb): 內建的因子。
 * [Pipeline example](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pipeline%20example.ipynb): 介紹 Pipeline 於交易策略使用方法與 before_trading_start 及 schedule_function 函式 (請下載閱讀)。
 * [Pyfolio](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pyfolio.ipynb): 交易策略績效與風險視覺化。
 
