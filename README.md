@@ -23,6 +23,7 @@
 * [TejToolAPI](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/TejToolAPI.ipynb): TejToolAPI 介紹。
 * [Pipeline example](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pipeline%20example.ipynb): 介紹 Pipeline 於交易策略使用方法與 before_trading_start 及 schedule_function 函式 (請下載閱讀)。
 * [Pyfolio](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pyfolio.ipynb): 交易策略績效與風險視覺化。
+* [Alphalens](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Alphalens%20.ipynb): 因子研究。
 
 ## 策略範例 (Example)
 * [布林通道交易策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/%E5%B8%83%E6%9E%97%E9%80%9A%E9%81%93%E4%BA%A4%E6%98%93%E7%AD%96%E7%95%A5.ipynb)
