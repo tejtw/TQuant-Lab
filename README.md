@@ -1,5 +1,5 @@
 # TQuant-Lab
-使用文件、程式範例
+使用文件、程式範例，為了更佳的閱讀體驗，建議您以下載方式所閱讀教材或策略。
 
 ## 操作教材 (Lecture)
 * [Install TQuant Lab](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Install%20TQuant%20Lab.ipynb): 安裝 TQuant lab。
