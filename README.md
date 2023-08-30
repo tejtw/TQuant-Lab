@@ -30,7 +30,7 @@
 * [乖離率策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/%E4%B9%96%E9%9B%A2%E7%8E%87%E7%AD%96%E7%95%A5.ipynb)
 * [量能回測實戰](https://github.com/tejtw/TQuant-Lab/blob/main/example/%E9%87%8F%E8%83%BD%E5%9B%9E%E6%B8%AC%E5%AF%A6%E6%88%B0.ipynb)
 * [MACD 指標回測實戰](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQuant_MACD.ipynb)
-* [月營收分析 top30](https://github.com/tejtw/TQuant-Lab/blob/main/example/%E6%9C%88%E7%87%9F%E6%94%B6%E5%88%86%E6%9E%90.ipynb)
+* [月營收分析](https://github.com/tejtw/TQuant-Lab/blob/main/example/%E6%9C%88%E7%87%9F%E6%94%B6%E5%88%86%E6%9E%90.ipynb)
 
 
 ## 問題集(problem)
