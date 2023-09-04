@@ -31,6 +31,15 @@
 * [量能回測實戰](https://github.com/tejtw/TQuant-Lab/blob/main/example/%E9%87%8F%E8%83%BD%E5%9B%9E%E6%B8%AC%E5%AF%A6%E6%88%B0.ipynb)
 * [MACD 指標回測實戰](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQuant_MACD.ipynb)
 * [月營收分析](https://github.com/tejtw/TQuant-Lab/blob/main/example/%E6%9C%88%E7%87%9F%E6%94%B6%E5%88%86%E6%9E%90.ipynb)
+* [KD 指標回測實戰](https://github.com/tejtw/TQuant-Lab/blob/main/example/%E3%80%90%E9%87%8F%E5%8C%96%E5%88%86%E6%9E%90%E3%80%91KD%E6%8C%87%E6%A8%99%E5%9B%9E%E6%B8%AC%E5%AF%A6%E6%88%B0(Portfolio).ipynb)
+* [ETF 資產配置模型](https://github.com/tejtw/TQuant-Lab/blob/main/example/ETF%20Asset%20Allocation%20Model(final%20version).ipynb)
+* [尋找 alpha](https://github.com/tejtw/TQuant-Lab/blob/main/example/Seeking_Alpha(final%20version).ipynb)
+* [籌碼集中度測略](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_TradingStrategy_ChipConcentration.ipynb)
+* [逆勢交易策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_TradingStrategy_CounterTrend.ipynb)
+* [Expanded Momentum Model](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_TradingStrategy_ExpandedMom.ipynb)
+* [跟隨大戶策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_TradingStrategy_FollowInstitution.ipynb)
+* [Time Return Trend Model](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_TradingStrategy_TimeReturn.ipynb)
+* [趨勢追縱策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_TradingStrategy_TrendFollwing.ipynb)
 
 
 ## 問題集(problem)
