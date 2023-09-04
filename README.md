@@ -43,5 +43,5 @@
 * [TQ_長期趨勢策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E9%95%B7%E6%9C%9F%E8%B6%A8%E5%8B%A2%E7%AD%96%E7%95%A5.ipynb)
 
 ## 問題集 (problem)
-* [QA_無槓桿案例](https://github.com/tejtw/TQuant-Lab/blob/main/Problem/%E8%B6%85%E8%B2%B7%E8%B6%85%E8%B3%A3%E6%A1%88%E4%BE%8B.ipynb)
+* [QA_不開槓桿設定](https://github.com/tejtw/TQuant-Lab/blob/main/Problem/QA_%E4%B8%8D%E9%96%8B%E6%A7%93%E6%A1%BF%E8%A8%AD%E5%AE%9A.ipynb)
 * [QA_處理自建因子](https://github.com/tejtw/TQuant-Lab/blob/main/Problem/QA_%E8%99%95%E7%90%86%E8%87%AA%E5%BB%BA%E5%9B%A0%E5%AD%90.ipynb)
