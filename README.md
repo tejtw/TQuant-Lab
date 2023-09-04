@@ -42,5 +42,5 @@
 * [趨勢追縱策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_TradingStrategy_TrendFollwing.ipynb)
 
 
-## 問題集(problem)
+## 問題集 (problem)
 * [超買超賣案例](https://github.com/tejtw/TQuant-Lab/blob/main/Problem/%E8%B6%85%E8%B2%B7%E8%B6%85%E8%B3%A3%E6%A1%88%E4%BE%8B.ipynb)
