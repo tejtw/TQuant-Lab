@@ -10,7 +10,7 @@
 * [Zipline order (value & target_value)](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Zipline%20Order%20(value%20%26%20target_value).ipynb): 下單方法介紹(二)
 * [Zipline order (percent & target_percent)](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Zipline%20Order%20(percent%20%26%20target_percent).ipynb): 下單方法介紹(三)
 * [Zipline slippage](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Zipline%20Slippage.ipynb): 滑價設置方法介紹。
-* [Zipline trading control](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Zipline%20Trading%20Controls%20.ipynb): 下單限制設定。
+* [Zipline trading control](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Zipline%20Trading%20Controls.ipynb): 下單限制設定。
 * [Zipline commission models](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Zipline%20Commission%20Models.ipynb): 手續費設定。
 * [Zipline cancel order](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Zipline%20Cancel%20Order.ipynb): 交易取消設定。
 * [Creating a pipeline](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Creating%20a%20Pipeline.ipynb): 建立 pipeline 教學。
