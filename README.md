@@ -22,7 +22,7 @@
 * [Pipeline built-in filter](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pipeline%20built-in%20filters.ipynb): 內建的濾網。
 * [TejToolAPI](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/TejToolAPI.ipynb): TejToolAPI 介紹。
 * [TejToolAPI(Extended)](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Data%20Preprocess%20-%20tejtoolapi.ipynb): TejToolAPI 延伸教學。
-* [Pipeline example](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pipeline%20example%20.ipynb): 介紹 Pipeline 於交易策略使用方法與 before_trading_start 及 schedule_function 函式 (請下載閱讀)。
+* [Pipeline example](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pipeline%20example%20(請下載閱讀).ipynb): 介紹 Pipeline 於交易策略使用方法與 before_trading_start 及 schedule_function 函式 (請下載閱讀)。
 * [Pyfolio](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pyfolio.ipynb): 交易策略績效與風險視覺化。
 * [Alphalens](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Alphalens%20.ipynb): 因子研究。
 
