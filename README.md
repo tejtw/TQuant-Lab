@@ -4,10 +4,10 @@
 ## 操作教材 (Lecture)
 * [Install TQuant Lab](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Install%20TQuant%20Lab.ipynb): 安裝 TQuant lab。
 * [get_universe說明](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/get_universe%E8%AA%AA%E6%98%8E.ipynb): 取得特定的股票池。
-* [Universe Analysis－using get_universe.ipynb](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Universe%20Analysis%EF%BC%8Dusing%20get_universe.ipynb): 分析股票池的產業分布與成交金額。
+* [Universe Analysis－using get_universe](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Universe%20Analysis%EF%BC%8Dusing%20get_universe.ipynb): 分析股票池的產業分布與成交金額。
 * [Data collection](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Data%20collection.ipynb): 股票價量資料的下載方法。
 * [TSMC buy and hold strategy](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/TSMC%20buy%20and%20hold%20strategy.ipynb): 以買進持有策略示範 zipline 回測架構與四大基礎函式 initialize, handle_data, analyze 與 run_algorithm。
-* [Simple Algorithm-TargetPercentPipeAlgo.ipynb](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Simple%20Algorithm-TargetPercentPipeAlgo.ipynb): 利用pipeline提供的買賣清單與持股權重進行定期再平衡的演算法。
+* [Simple Algorithm-TargetPercentPipeAlgo](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Simple%20Algorithm-TargetPercentPipeAlgo.ipynb): 利用pipeline提供的買賣清單與持股權重進行定期再平衡的演算法。
 * [Zipline context](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Zipline%20Context.ipynb): context 功能介紹。
 * [Zipline order (order & order_target)](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Zipline%20Order%20(order%20%26%20order_target).ipynb): 下單方法介紹(一)
 * [Zipline order (value & target_value)](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Zipline%20Order%20(value%20%26%20target_value).ipynb): 下單方法介紹(二)
