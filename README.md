@@ -3,8 +3,11 @@
 
 ## 操作教材 (Lecture)
 * [Install TQuant Lab](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Install%20TQuant%20Lab.ipynb): 安裝 TQuant lab。
+* [get_universe說明](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/get_universe%E8%AA%AA%E6%98%8E.ipynb): 取得特定的股票池。
+* [Universe Analysis－using get_universe.ipynb](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Universe%20Analysis%EF%BC%8Dusing%20get_universe.ipynb): 分析股票池的產業分布與成交金額。
 * [Data collection](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Data%20collection.ipynb): 股票價量資料的下載方法。
 * [TSMC buy and hold strategy](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/TSMC%20buy%20and%20hold%20strategy.ipynb): 以買進持有策略示範 zipline 回測架構與四大基礎函式 initialize, handle_data, analyze 與 run_algorithm。
+* [Simple Algorithm-TargetPercentPipeAlgo.ipynb](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Simple%20Algorithm-TargetPercentPipeAlgo.ipynb): 利用pipeline提供的買賣清單與持股權重進行定期再平衡的演算法。
 * [Zipline context](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Zipline%20Context.ipynb): context 功能介紹。
 * [Zipline order (order & order_target)](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Zipline%20Order%20(order%20%26%20order_target).ipynb): 下單方法介紹(一)
 * [Zipline order (value & target_value)](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Zipline%20Order%20(value%20%26%20target_value).ipynb): 下單方法介紹(二)
@@ -42,6 +45,7 @@
 * [TQ_量能回測實戰](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E9%87%8F%E8%83%BD%E5%9B%9E%E6%B8%AC%E5%AF%A6%E6%88%B0.ipynb)
 * [TQ_長期趨勢策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E9%95%B7%E6%9C%9F%E8%B6%A8%E5%8B%A2%E7%AD%96%E7%95%A5.ipynb)
 * [TQ_月營收成長率策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E6%9C%88%E7%87%9F%E6%94%B6%E6%88%90%E9%95%B7%E7%8E%87%E7%AD%96%E7%95%A5.ipynb)
+* [TQ_月營收成長率策略_simple_algo](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E6%9C%88%E7%87%9F%E6%94%B6%E6%88%90%E9%95%B7%E7%8E%87%E7%AD%96%E7%95%A5_simple_algo.ipynb)
 
 ## 問題集 (problem)
 * [QA_不開槓桿設定](https://github.com/tejtw/TQuant-Lab/blob/main/Problem/QA_%E4%B8%8D%E9%96%8B%E6%A7%93%E6%A1%BF%E8%A8%AD%E5%AE%9A.ipynb)
