@@ -2,7 +2,7 @@
 使用文件、程式範例，閱讀完所有教材與範例後，您將會具備使用 TQuant Lab 執行多數交易策略的能力。為了更佳的閱讀體驗，建議您以下載方式閱讀教材或策略。
 
 ## 操作教材 (Lecture)
-* [Install TQuant Lab](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Install%20TQuant%20Lab.ipynb): 安裝 TQuant lab。
+* [Install TQuant Lab](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Install%20TQuant%20Lab.ipynb): 安裝 TQuant lab、檢查版本與升級。
 * [get_universe說明](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/get_universe%E8%AA%AA%E6%98%8E.ipynb): 取得特定的股票池。
 * [Universe Analysis－using get_universe](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Universe%20Analysis%EF%BC%8Dusing%20get_universe.ipynb): 分析股票池的產業分布與成交金額。
 * [Data collection](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Data%20collection.ipynb): 股票價量資料的下載方法。
