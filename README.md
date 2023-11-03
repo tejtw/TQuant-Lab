@@ -46,6 +46,7 @@
 * [TQ_長期趨勢策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E9%95%B7%E6%9C%9F%E8%B6%A8%E5%8B%A2%E7%AD%96%E7%95%A5.ipynb)
 * [TQ_月營收成長率策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E6%9C%88%E7%87%9F%E6%94%B6%E6%88%90%E9%95%B7%E7%8E%87%E7%AD%96%E7%95%A5.ipynb)
 * [TQ_月營收成長率策略_simple_algo](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E6%9C%88%E7%87%9F%E6%94%B6%E6%88%90%E9%95%B7%E7%8E%87%E7%AD%96%E7%95%A5_simple_algo.ipynb)
+* [TQ_阿隆指標交易策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E9%98%BF%E9%9A%86%E6%8C%87%E6%A8%99%E4%BA%A4%E6%98%93%E7%AD%96%E7%95%A5.ipynb)
 
 ## 問題集 (problem)
 * [QA_不開槓桿設定](https://github.com/tejtw/TQuant-Lab/blob/main/Problem/QA_%E4%B8%8D%E9%96%8B%E6%A7%93%E6%A1%BF%E8%A8%AD%E5%AE%9A.ipynb)
