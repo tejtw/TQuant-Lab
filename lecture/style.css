@@ -1,0 +1,57 @@
+@charset"UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 15px;
+    margin: 10px 0;
+    /*background-color: #f2f2f2*/
+    border: 1px solid #ddd; /* 例如細的灰色邊框 */
+    border-radius: 5px; /* 圓角邊緣 */
+}
+
+h2 {
+    color: #57a892; 
+    margin-top: 20px;
+}
+
+
+h3 {
+    color: #57a892;
+    margin-top: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+
+pre {
+    background-color: #f6f6f6;
+    /*border: 1px solid #dee2e6;*/
+    padding: 10px;
+    overflow: auto;
+}
+
+code {
+    background-color: #f6f6f6;
+    /*padding: 2px 4px;*/
+    font-size: 100%;
+    color: #000000; 
+}
+
+/* 普通狀態下的超連結顏色 */
+a {
+color: #57a892; /* 設定您喜歡的顏色 */
+text-decoration: none; /* 去除下劃線 */
+}
+
+/* 鼠標懸停時的超連結顏色 */
+a:hover {
+color: #0056b3; /* 設定鼠標懸停時的顏色 */
+text-decoration: underline; /* 添加下劃線 */
+}
+
+/* 被訪問過的超連結顏色 */
+a:visited {
+color: #633991; /* 設定被訪問過的連結的顏色 */
+}
