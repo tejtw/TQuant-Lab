@@ -1,34 +1,48 @@
 @charset"UTF-8";
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    padding: 15px;
-    margin: 10px 0;
-    /*background-color: #f2f2f2*/
-    border: 1px solid #ddd; /* 例如細的灰色邊框 */
-    border-radius: 5px; /* 圓角邊緣 */
+    font-size: 16px;  /* 文字大小 建議14~16*/
+    line-height: 1.6; /* 調整行高 建議1.5~1.9*/
+    padding: 20px;    /* padding內距：從 border 到內部(內容)的距離；至少為文字大小的 1~1.5倍；邊框與內容(文字)間留白20px*/
+    margin: 10px 0;   /* margin外距：從 border 到其他元素的距離；在元素的四周加上留白空間；上下：10 左右：0 */
+    /*background-color: #f2f2f2*/  /* 背景顏色 */
+    border: 1px solid #ddd; /* border：元素的邊緣；同時設定邊框的border-width、border-style、border-color*/
+    border-radius: 5px;       /* 圓角邊緣 */
+
 }
+
+
+h1 {
+    color: #57a892; 
+    margin-top: 48px; /* 在元素的上方加上留白空間 */
+    font-size: 2rem   /* 文字大小：基準尺寸的2倍 */
+
+}
+  
 
 h2 {
     color: #57a892; 
-    margin-top: 20px;
+    margin-top: 43px;
+    font-size: 1.8rem
+
 }
 
 
 h3 {
     color: #57a892;
-    margin-top: 20px;
+    margin-top: 38px;
+    font-size: 1.6rem
 }
 
 p {
-    margin: 10px 0;
+    /*margin: 10px 0;*/
 }
 
 
 pre {
-    background-color: #f6f6f6;
+    background-color: #f6f6f6;  /*改變背景色*/
     /*border: 1px solid #dee2e6;*/
-    padding: 10px;
+    padding: 20px;
     overflow: auto;
 }
 
@@ -39,19 +53,22 @@ code {
     color: #000000; 
 }
 
+
 /* 普通狀態下的超連結顏色 */
 a {
-color: #57a892; /* 設定您喜歡的顏色 */
-text-decoration: none; /* 去除下劃線 */
+    color: #57a892; 
+    text-decoration: none; /* 去除下劃線 */
 }
 
-/* 鼠標懸停時的超連結顏色 */
+
+/* 滑鼠懸停時的超連結顏色 */
 a:hover {
-color: #0056b3; /* 設定鼠標懸停時的顏色 */
-text-decoration: underline; /* 添加下劃線 */
+    color: #0056b3; 
+    text-decoration: underline; /* 添加下劃線 */
 }
+
 
 /* 被訪問過的超連結顏色 */
 a:visited {
-color: #633991; /* 設定被訪問過的連結的顏色 */
+    color: #633991;
 }
