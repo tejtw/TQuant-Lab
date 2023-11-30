@@ -38,7 +38,6 @@
 * [TQ_尋找Alpha](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E5%B0%8B%E6%89%BEAlpha.ipynb)
 * [TQ_布林通道交易策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E5%B8%83%E6%9E%97%E9%80%9A%E9%81%93%E4%BA%A4%E6%98%93%E7%AD%96%E7%95%A5.ipynb)
 * [TQ_延伸量能回測策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E5%BB%B6%E4%BC%B8%E9%87%8F%E8%83%BD%E5%9B%9E%E6%B8%AC%E7%AD%96%E7%95%A5.ipynb)
-* [TQ_籌碼集中度策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E7%B1%8C%E7%A2%BC%E9%9B%86%E4%B8%AD%E5%BA%A6%E7%AD%96%E7%95%A5.ipynb)
 * [TQ_趨勢跟蹤策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E8%B6%A8%E5%8B%A2%E8%B7%9F%E8%B9%A4%E7%AD%96%E7%95%A5.ipynb)
 * [TQ_跟隨大戶策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E8%B7%9F%E9%9A%A8%E5%A4%A7%E6%88%B6%E7%AD%96%E7%95%A5.ipynb)
 * [TQ_逆勢交易策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E9%80%86%E5%8B%A2%E4%BA%A4%E6%98%93%E7%AD%96%E7%95%A5.ipynb)
