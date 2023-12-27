@@ -48,6 +48,7 @@
 * [TQ_阿隆指標交易策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E9%98%BF%E9%9A%86%E6%8C%87%E6%A8%99%E4%BA%A4%E6%98%93%E7%AD%96%E7%95%A5.ipynb)
 
 ## 問題集 (problem)
+* [NotSessionError](https://github.com/tejtw/TQuant-Lab/issues/12)
 * [QA_不開槓桿設定](https://github.com/tejtw/TQuant-Lab/blob/main/Problem/QA_%E4%B8%8D%E9%96%8B%E6%A7%93%E6%A1%BF%E8%A8%AD%E5%AE%9A.ipynb)
 * [QA_處理自建因子](https://github.com/tejtw/TQuant-Lab/blob/main/Problem/QA_%E8%99%95%E7%90%86%E8%87%AA%E5%BB%BA%E5%9B%A0%E5%AD%90.ipynb)
 * [QA_因子出現 Bin edges must be unique array nan 問題](https://github.com/tejtw/TQuant-Lab/blob/main/Problem/QA_%E5%9B%A0%E5%AD%90%E5%87%BA%E7%8F%BE%20Bin%20edges%20must%20be%20unique%20array%20nan%20%E5%95%8F%E9%A1%8C.ipynb)
