@@ -27,7 +27,7 @@
 - **支援 pandas 2.0.0**。
 - **支援 python 3.11**：
   - 未來的版本更新將不針對低於 python 3.11 的環境特別進行維護，因較舊的 python 版本可能存在安全漏洞。
-  - 煩請撥冗於 **2024/4 月底前**升級環境（安裝方式：[lecture/Install TQuant Lab.ipynb](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Install%20TQuant%20Lab.ipynb)），並安裝新版 TQuant Lab 程式，若有安裝問題請聯絡TEJ客服。
+  - 煩請撥冗於 **2024/4 月底前**升級環境（安裝方式可以參考 yml：[lecture/Install TQuant Lab.ipynb](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Install%20TQuant%20Lab.ipynb)），並安裝新版 TQuant Lab 程式，若有安裝問題請聯絡TEJ客服。
   - 先前利用 yml 建立的 python 3.8 環境目前仍舊可以繼續使用，但開發團隊預計於 2024/4 月底後將不再針對該環境特別進行維護。
 - zipline
   - zipline 新增 **current_bar** 回測功能、fundamentals bundle 新增 **update** 與 **add** 功能。
