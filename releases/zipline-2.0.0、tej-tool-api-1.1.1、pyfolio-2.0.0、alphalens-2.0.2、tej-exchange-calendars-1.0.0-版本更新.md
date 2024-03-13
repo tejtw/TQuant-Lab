@@ -232,7 +232,7 @@
     extract_round_trips(returns, transactions, positions, dask_mode=False, n_workers_discount=1, npartitions=100)
     ```
 
-  - 參考：[example/TQ_動量策略.ipynb](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E5%8B%95%E9%87%8F%E7%AD%96%E7%95%A5.ipynb)、[example/TQ_月營收成長率策略_simple_algo.ipynb](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E6%9C%88%E7%87%9F%E6%94%B6%E6%88%90%E9%95%B7%E7%8E%87%E7%AD%96%E7%95%A5_simple_algo.ipynb)。
+  - 參考：[example/TQ_月營收成長率策略_simple_algo.ipynb](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E6%9C%88%E7%87%9F%E6%94%B6%E6%88%90%E9%95%B7%E7%8E%87%E7%AD%96%E7%95%A5_simple_algo.ipynb)。
 
 
 ### 問題修復
