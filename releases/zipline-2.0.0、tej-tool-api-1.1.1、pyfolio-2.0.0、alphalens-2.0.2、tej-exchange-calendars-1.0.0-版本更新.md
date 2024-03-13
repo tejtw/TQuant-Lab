@@ -272,7 +272,7 @@
 | OTC23 OTC 電子類| OTC23 OTC Electronic | O2335 OTC 綠能環保 | O2335 OTC Green Energy and Environmental Services |   | OTC35 OTC 綠能環保 | OTC35 OTC Green Energy and Environmental Services | 空白    | 空白    |
 | OTC23 OTC 電子類| OTC23 OTC Electronic | O2336 OTC 數位雲端 | O2336 OTC Digital and Cloud Services              |   | OTC36 OTC 數位雲端 | OTC36 OTC Digital and Cloud Services              | 空白    | 空白    |
 
-- 修改證券屬性資料表（TWN/APISTOCK）：修改"綠能環保產業"（M3500、OTC35）與"數位雲端產業"（M3600、OTC36）的 **tejind** 欄位，由M2300或O2300拆出
+- 修改證券屬性資料表（TWN/APISTOCK）：修改"綠能環保產業"（M3500、OTC35）與"數位雲端產業"（M3600、OTC36）的 **tejind** 欄位，由 M2300 或 O2300 拆出
 
 | TWN/APISTOCK |  |
 |--------------|------------|
