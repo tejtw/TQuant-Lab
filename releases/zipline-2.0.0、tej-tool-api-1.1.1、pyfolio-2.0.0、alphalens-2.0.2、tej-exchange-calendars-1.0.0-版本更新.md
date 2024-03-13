@@ -300,11 +300,10 @@
   - 配合 pandas 2.0.0 更新部分程式碼。
 - [example/TQ_月營收成長率策略_simple_algo](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E6%9C%88%E7%87%9F%E6%94%B6%E6%88%90%E9%95%B7%E7%8E%87%E7%AD%96%E7%95%A5_simple_algo.ipynb)：
   - 將部分的 TQDataSet 改為 TQAltDataSet。
+  - 修正 extract_round_trips 的參數。
 - [example/TQ_月營收成長率策略](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E6%9C%88%E7%87%9F%E6%94%B6%E6%88%90%E9%95%B7%E7%8E%87%E7%AD%96%E7%95%A5.ipynb)：
   - 縮短回測的起迄日。
   - ticker 改用 get_universe 取。
 - [example/TQ_尋找Alpha.ipynb](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E5%B0%8B%E6%89%BEAlpha.ipynb)：
   - ticker 改用 get_universe 取。
   - alphalens 的 prices 平移一期，避免前視偏誤。
-- [example/TQ_動量策略.ipynb](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_%E5%8B%95%E9%87%8F%E7%AD%96%E7%95%A5.ipynb)
-  - 修正 extract_round_trips 的參數。
