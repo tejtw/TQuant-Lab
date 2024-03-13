@@ -1,4 +1,4 @@
-# zipline-2.0.0、tej-tool-api-1.1.1、pyfolio-2.0.0、alphalens-2.0.2、tej-exchange-calendars-1.0.0 版本更新
+# zipline-2.0.0、tej-tool-api-1.1.1、pyfolio-2.0.2、alphalens-2.0.2、tej-exchange-calendars-1.0.0 版本更新
 
 ### `預計更新時間：2024/3/13（三） 15:00 ~ 19:00`
 
@@ -289,6 +289,7 @@
 文件的重要更新
 - [lecture/Simple Algorithm-TargetPercentPipeAlgo](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Simple%20Algorithm-TargetPercentPipeAlgo.ipynb)：
   - 將部分的 TQDataSet 改為 TQAltDataSet。
+  - 新增 order_filling_policy 範例。
 - [lecture/Install TQuant Lab.ipynb](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Install%20TQuant%20Lab.ipynb)
   - 更新安裝方式說明。
 - [lecture/Data collection.ipynb](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Data%20collection.ipynb)：
