@@ -25,6 +25,7 @@
 ## 更新重點
 - **此次更新為重大更新，可能會不兼容過去建立的回測程式碼。**
 - **支援 pandas 2.0.0**。
+- **支援 numpy 1.23.5**。
 - **支援 python 3.11**：
   - 未來的版本更新將不針對低於 python 3.11 的環境特別進行維護，因較舊的 python 版本可能存在安全漏洞。
   - 煩請撥冗於 **2024/4 月底前**升級環境（安裝方式可以參考 yml：[lecture/Install TQuant Lab.ipynb](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Install%20TQuant%20Lab.ipynb)），並安裝新版 TQuant Lab 程式，若有安裝問題請聯絡TEJ客服。
@@ -58,6 +59,7 @@
 
 ### 功能新增和重構
 - 支援 pandas 2.0.0。
+- 支援 numpy 1.23.5。
 - 支援 python 3.11。
 - 新增 zipline 的dependencies：`scipy` >= 1.10.0。
 - **zipline update** 與 **zipline add** 功能現在可使用於 fundamentals bundle。（參考：[lecture/Data collection.ipynb](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Data%20collection.ipynb)，此功能將耗費 api_key 的流量）
@@ -199,6 +201,7 @@
 
 ### 功能新增
 - 支援 pandas 2.0.0。
+- 支援 numpy 1.23.5。
 - 支援 python 3.11。
 
 <br>
@@ -219,6 +222,7 @@
 
 ### 功能新增和重構
 - 支援 pandas 2.0.0。
+- 支援 numpy 1.23.5。
 - 支援 python 3.11。
 - 新增 pyfolio 的 dependencies：`dask[distributed]`。
 - round_trips：
@@ -255,6 +259,7 @@
 
 ### 功能新增和重構
 - 支援 pandas 2.0.0。
+- 支援 numpy 1.23.5。
 - 支援 python 3.11。
 
 <br>
