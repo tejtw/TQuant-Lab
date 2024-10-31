@@ -174,7 +174,7 @@ import TejToolAPI
 TejToolAPI.show_columns(chinese = True)
 ```
 
-### 2. 新增get_history_data 的參數說明，
+### 2. 新增get_history_data 的參數說明
 
 ```python
 ticker : list , 公司碼
