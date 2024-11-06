@@ -167,7 +167,7 @@ def initialize(context) :
 2. 修復較新版dask與pandas使用時可能會遇到mdate資料型態不匹配的問題
 
 
-### 20241101 更新 [v1.2.2](https://github.com/tejtw/TEJ_TOOL_API/releases/tag/1.2.2)
+### `2024-11-01 更新` [v1.2.2](https://github.com/tejtw/TEJ_TOOL_API/releases/tag/1.2.2)
 - 新增dependency : dask-expr
 - Future warning : 未來可能僅支援 pandas 2 版以上，將不針對 pandas 1 版進行相容性測試
 
