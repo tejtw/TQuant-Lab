@@ -158,12 +158,15 @@ def initialize(context) :
 | current_bar | close | portfolio_value (t期初，經除權調整) * percent | value/close(t) | 目標價值 - 帳上持有股數(t期初，經除權調整) | | 
 
 # tej-tool-api
+
 ---
 ## bug修復 (目前已測試到pandas 2.2.2 , dask 2024.9.1 , dask-expr 1.1.15)
 
 1. 修復較新版dask與pandas使用時可能會遇到string變成PyArrow導致資料型態不匹配的問題
 
 2. 修復較新版dask與pandas使用時可能會遇到mdate資料型態不匹配的問題
+
+https://github.com/tejtw/TEJ_TOOL_API/releases/tag/1.2.2
 
 ## 功能新增
 
