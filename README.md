@@ -2,8 +2,11 @@
 使用文件、程式範例，閱讀完所有教材與範例後，您將會具備使用 TQuant Lab 執行多數交易策略的能力。為了更佳的閱讀體驗，建議您以下載方式閱讀教材或策略。
 
 ## 操作教材 (Lecture)
+
 * [Install TQuant Lab](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Install%20TQuant%20Lab.ipynb): 安裝 TQuant lab、檢查版本與升級。
 * [Data collection](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Data%20collection.ipynb): 股票價量（!zipline ingest -b tquant）與非價量資料（!zipline ingest -b fundamentals）的下載方法。
+
+#### Zipline 回測相關功能
 * [get_universe說明](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/get_universe%E8%AA%AA%E6%98%8E.ipynb): 取得特定的股票池。
 * [Universe Analysis－using get_universe](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Universe%20Analysis%EF%BC%8Dusing%20get_universe.ipynb): 分析股票池的產業分布與成交金額。
 * [TSMC buy and hold strategy](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/TSMC%20buy%20and%20hold%20strategy.ipynb): 以買進持有策略示範 zipline 回測架構與四大基礎函式 initialize, handle_data, analyze 與 run_algorithm。
@@ -16,6 +19,8 @@
 * [Zipline trading control](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Zipline%20Trading%20Controls.ipynb): 下單限制設定。
 * [Zipline commission models](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Zipline%20Commission%20Models.ipynb): 手續費設定。
 * [Zipline cancel order](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Zipline%20Cancel%20Order.ipynb): 交易取消設定。
+
+#### 因子／訊號計算工具：Pipeline
 * [Creating a pipeline](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Creating%20a%20Pipeline.ipynb): 建立 pipeline 教學。
 * [Factor](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Factors.ipynb): 介紹因子使用方法。
 * [Filter](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Filters.ipynb): 介紹濾網使用方法。
@@ -24,9 +29,13 @@
 * [Pipeline built-in factor](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pipeline%20built-in%20factors.ipynb): 內建的因子。
 * [Pipeline built-in classifier](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pipeline%20built-in%20classifier.ipynb): 內建的分類器。
 * [Pipeline built-in filter](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pipeline%20built-in%20filters.ipynb): 內建的濾網。
+* [Pipeline example](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pipeline%20example%20(請下載閱讀).ipynb): 介紹 Pipeline 於交易策略使用方法與 before_trading_start 及 schedule_function 函式。
+
+#### 資料整併工具：TejToolAPI
 * [TejToolAPI](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/TejToolAPI.ipynb): TejToolAPI 介紹。
 * [TejToolAPI(Extended)](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Data%20Preprocess%20-%20tejtoolapi.ipynb): TejToolAPI 延伸教學。
-* [Pipeline example](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pipeline%20example%20(請下載閱讀).ipynb): 介紹 Pipeline 於交易策略使用方法與 before_trading_start 及 schedule_function 函式。
+
+#### 分析工具：Pyfolio 與 Alphalens
 * [Pyfolio](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pyfolio.ipynb): 交易策略績效與風險視覺化。
 * [Alphalens](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Alphalens%20.ipynb): 因子研究。
 
