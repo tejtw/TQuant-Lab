@@ -36,7 +36,7 @@ def initialize(context):
 
 
 ### 2.  於 `zipline.data.run_ingest` 中新增 `simple_ingest` 功能，使得ingest更加容易。
-
+start_date 與 end_date 格式須為 YYMMDD
 ```python
 import os 
 os.environ['TEJAPI_KEY'] = '<your_key>'
