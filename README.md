@@ -31,6 +31,7 @@
 * [Filter](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Filters.ipynb): 介紹濾網使用方法。
 * [Masking](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Masking.ipynb): 介紹遮網使用方法。 
 * [Custom Factor](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Custom%20Factors.ipynb): 客製化因子。
+* [DataFrameLoader](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/DataFrameLoader.ipynb): 導入客製化的數據。
 * [Pipeline built-in factor](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pipeline%20built-in%20factors.ipynb): 內建的因子。
 * [Pipeline built-in classifier](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pipeline%20built-in%20classifier.ipynb): 內建的分類器。
 * [Pipeline built-in filter](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/Pipeline%20built-in%20filters.ipynb): 內建的濾網。
