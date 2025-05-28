@@ -48,7 +48,7 @@
 #### 期貨相關
 * [TQ_期貨連續月合約、三大法人、大額交易人函數使用範例說明](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/TQ_%E6%9C%9F%E8%B2%A8%E9%80%A3%E7%BA%8C%E6%9C%88%E5%90%88%E7%B4%84%E3%80%81%E4%B8%89%E5%A4%A7%E6%B3%95%E4%BA%BA%E3%80%81%E5%A4%A7%E9%A1%8D%E4%BA%A4%E6%98%93%E4%BA%BA%E5%87%BD%E6%95%B8%E4%BD%BF%E7%94%A8%E7%AF%84%E4%BE%8B%E8%AA%AA%E6%98%8E.ipynb)
 * [TQ_futures_期貨契約調整對回測損益影響說明](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/TQ_futures_%E6%9C%9F%E8%B2%A8%E5%A5%91%E7%B4%84%E8%AA%BF%E6%95%B4%E5%B0%8D%E5%9B%9E%E6%B8%AC%E6%90%8D%E7%9B%8A%E5%BD%B1%E9%9F%BF%E8%AA%AA%E6%98%8E.ipynb)
-* [TQuant 期貨策略範例](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/TQuant%20%E6%9C%9F%E8%B2%A8%E7%AD%96%E7%95%A5%E7%AF%84%E4%BE%8B.ipynb): 因子研究。
+* [TQuant 期貨策略範例](https://github.com/tejtw/TQuant-Lab/blob/main/lecture/TQuant%20%E6%9C%9F%E8%B2%A8%E7%AD%96%E7%95%A5%E7%AF%84%E4%BE%8B.ipynb)
 
 ## 策略範例 (Example)
 * [TQ_ETF資產配置模型](https://github.com/tejtw/TQuant-Lab/blob/main/example/TQ_ETF%E8%B3%87%E7%94%A2%E9%85%8D%E7%BD%AE%E6%A8%A1%E5%9E%8B.ipynb)
