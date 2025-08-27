@@ -1,89 +1,105 @@
-# %%
+
+# =========================================
+# 產業輪動策略主程式 (根據md檔內容加註解與優化)
+# =========================================
+#
+# 本策略以台灣景氣指標(如SCORE)、ETF(0050)、債券ETF(00865B)等資產，
+# 依據景氣分數進行資產配置輪動。
+# 主要流程：
+# 1. 下載與處理資料
+# 2. 設定回測與資產池
+# 3. 定義多種資產輪動策略
+# 4. 回測與績效視覺化
+#
+# 參考md檔說明，並補充註解與結構優化。
+
 import tejapi
-tejapi.ApiConfig.api_key = "Your Key"
-tejapi.ApiConfig.api_base = "Your Base"
+# === 1. 下載與處理資料 ===
+tejapi.ApiConfig.api_key = "Your Key"  # 請填入TEJ API金鑰
+tejapi.ApiConfig.api_base = "Your Base"  # 請填入TEJ API網址
+
+# 下載景氣分數資料 (如SCORE)
 data = tejapi.get('GLOBAL/ANMAR', mdate={'gte':'2000-01-01', 'lte':'2025-04-09'}, coid = 'EA1101')
 data.sort_values('mdate')
 
+# 下載0050 ETF價格資料
 data2 = tejapi.get('TWN/AAPRCDA', coid = ['0050'], mdate={'gte':'2000-01-01', 'lte':'2025-04-09'})
 df_price = data2[['mdate','close_d', 'avgclsd']].copy()
+# 下載短期債券ETF價格資料
 data3 = tejapi.get('TWN/AAPRCDA', coid = ['00865B'], mdate={'gte':'2000-01-01', 'lte':'2025-04-09'})
 df_bond = data3[['mdate','close_d', 'avgclsd']].copy()
 
+# 日期欄位處理與對齊
 data['mdate'] = pd.to_datetime(data['mdate'])
-data['val_shifted'] = data['val'].shift(1) 
+data['val_shifted'] = data['val'].shift(1)  # SCORE前移一日，避免未來資料洩漏
 df_price['mdate'] = pd.to_datetime(df_price['mdate'])
 df_bond['mdate'] = pd.to_datetime(df_bond['mdate'])
 
-
+# 設定索引
 data = data.set_index('mdate', drop=False)
 df_price = df_price.set_index('mdate', drop=False)
 df_bond = df_bond.set_index('mdate', drop=False)
 
+# 補齊每日資料 (前向填補)
 df_P_daily = data.resample('D').ffill()
 
-
+# 合併所有資料 (以0050為主)
 df = df_price.join(df_P_daily, how = 'left', rsuffix='_P')
 df = df.join(df_bond, how = 'left', rsuffix='_bond')
 df['mdate'] = df['mdate'].dt.strftime('%Y-%m-%d')
 df['mdate'] = pd.to_datetime(df['mdate'])
 
 # %%
+
+# === 2. 資料視覺化 ===
+# 觀察SCORE、0050、債券ETF的歷史走勢
 import pandas as pd
-
-#df = pd.read_csv('eco_data.csv')
-df['mdate'] = pd.to_datetime(df['mdate'])
-df['mdate'] = df['mdate'].dt.strftime('%Y-%m-%d')
-df['mdate'] = pd.to_datetime(df['mdate'])
-
-
 import matplotlib.pyplot as plt
 fig, axes = plt.subplots(nrows=3, ncols=1, figsize=(20, 10), sharex=True)
 plt.style.use('ggplot')
 axes[1].plot(df['mdate'], df['avgclsd'], label = '0050 Price')
-axes[1].set_title(f'0050 History Price')
+axes[1].set_title('0050 History Price')
 axes[1].legend()
 
 axes[0].plot(df['mdate'], df['val_shifted'], label = 'SCORE')
 axes[0].axhline(y = 38, label = 'Red Light Bound', color = 'red', linestyle = '--')
 axes[0].axhline(y= 16, label = 'Blue Light Bound', color = 'blue', linestyle = '--')
-axes[0].set_title(f'SCORE')
+axes[0].set_title('SCORE')
 axes[0].legend()
 
 axes[2].plot(df['mdate'], df['avgclsd_bond'], label = 'Short_term_bond Price')
-axes[2].set_title(f'00865B Short_term_bond History Price')
+axes[2].set_title('00865B Short_term_bond History Price')
 axes[2].legend()
 
 plt.tight_layout()
 plt.show()
 
-# %%
+
+# === 3. Zipline 回測準備 ===
 import os
-import tejapi
 plt.rcParams['font.family'] = 'Arial'
-tej_key = 'your key'
+tej_key = 'your key'  # 請填入TEJ金鑰
 os.environ['TEJAPI_BASE'] = "https://api.tej.com.tw"
 os.environ['TEJAPI_KEY'] = tej_key
 
 from zipline.data.run_ingest import simple_ingest
-from zipline.api import set_slippage, set_commission, set_benchmark,  symbol,  record
+from zipline.api import set_slippage, set_commission, set_benchmark, symbol, record
 from zipline.api import order_target_percent, order_percent, order
 from zipline.api import set_long_only, set_max_leverage
-
-
 from zipline.finance import commission, slippage
 from zipline import run_algorithm
-pool = ['0050', 'IR0001', '00865B', '00687B','00664R']
+
+# 資產池：股票、債券、反向ETF等
+pool = ['0050', 'IR0001', '00865B', '00687B', '00664R']
 start_date = '2009-01-01'
 end_date = '2025-04-09'
 start_ingest = start_date.replace('-', '')
 end_ingest = end_date.replace('-', '')
 
-simple_ingest(name = 'tquant' , tickers = pool , start_date = start_ingest , end_date = end_ingest)
+# 下載歷史行情資料 (Zipline bundle)
+simple_ingest(name = 'tquant', tickers = pool, start_date = start_ingest, end_date = end_ingest)
 
 print(pool)
-
-# %%
 
 def initialize(context, pool = pool):
 
@@ -378,7 +394,6 @@ results = run_algorithm(
             bundle = 'tquant',
             capital_base = 1e5)
 
-# %%
 import pyfolio
 from pyfolio.utils import extract_rets_pos_txn_from_zipline
 plt.rcParams['font.sans-serif'] = ['Arial', 'Noto Sans CJK TC', 'SimHei']  
@@ -391,10 +406,10 @@ pyfolio.tears.create_full_tear_sheet(returns=returns,
                                      benchmark_rets=benchmark_rets
                                     )
 
-# %%
+
 positions.loc['2024-12-06 00:00:00+00:00':].head(10)
 
-# %%
+
 def initialize_2(context, pool = pool):
   set_slippage(slippage.TW_Slippage(spread = 0.3 , volume_limit = 1))
   set_commission(commission.Custom_TW_Commission(min_trade_cost=20, discount=1.0, tax = 0.003))
