@@ -1,8 +1,8 @@
-# zipline-2.2.1、tej-tool-api-1.2.9、pyfolio-2.0.4、alphalens-2.0.3、tej-exchange-calendars-1.0.1-版本更新
+# zipline-2.2.1、tej-tool-api-1.2.10、pyfolio-2.0.4、alphalens-2.0.3、tej-exchange-calendars-1.0.1-版本更新
 
 ## 此次版本更新的範圍
 1. zipline-tej -> 2.2.1
-2. tej-tool-api -> 1.2.9
+2. tej-tool-api -> 1.2.10
 3. alphalens-tej -> 2.0.3
 4. pyfolio-tej -> 2.0.4
 5. tej-exchange-calendars -> 1.0.1
@@ -51,7 +51,7 @@
 <br>
 
 ## 2. tej-tool-api　版本更新
-- 版本：1.2.9
+- 版本：1.2.10
 - 日期：2025/09/17
 
 <br>
