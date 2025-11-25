@@ -148,7 +148,7 @@ a340f | 業外_營業外損益合計_證券 | Total_Non_Operating_Income_And_Exp
 日期：2025/12/1
 
 ## 此次版本更新的範圍
-tej-tool-api 2.2.1 -> 2.2.2
+zipline-tej 2.2.1 -> 2.2.2
 
 <br>
 
