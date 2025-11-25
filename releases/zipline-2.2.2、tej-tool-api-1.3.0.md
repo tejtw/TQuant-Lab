@@ -138,3 +138,27 @@ a3400 | 營業外收入及支出_保險 | Total_Non_Operating_Income_And_Expense
 a310c | 收益合計_證券 | Total_Revenue_Securities
 a3600 | 支出及費用合計_證券 | Total_Expenditure_And_Expense_Securities
 a340f | 業外_營業外損益合計_證券 | Total_Non_Operating_Income_And_Expenses_Securities
+
+
+
+
+
+
+# zipline-tej 2.2.2 版本更新
+日期：2025/12/1
+
+## 此次版本更新的範圍
+tej-tool-api 2.2.1 -> 2.2.2
+
+<br>
+
+### 更新方式
+```
+!pip install zipline-tej --upgrade 
+```
+
+<br>
+
+### 更新內容
+
+1. 因應tej-tool-api欄位的異動，新增使用欄位，不影響舊有欄位。
