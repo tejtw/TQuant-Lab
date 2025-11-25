@@ -162,3 +162,4 @@ zipline-tej 2.2.1 -> 2.2.2
 ### 更新內容
 
 1. 因應tej-tool-api欄位的異動，新增使用欄位，不影響舊有欄位。
+2. **Full Changelog**: https://github.com/tejtw/zipline-tej/compare/v2.2.1rc2...v2.2.2
