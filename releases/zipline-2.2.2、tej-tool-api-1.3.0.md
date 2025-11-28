@@ -1,8 +1,8 @@
-# tej-tool-api-1.3.1 版本更新
+# tej-tool-api-1.3.0 版本更新
 日期：2025/12/1
 
 ## 此次版本更新的範圍
-tej-tool-api 1.2.12 -> 1.3.1
+tej-tool-api 1.2.12 -> 1.3.0
 
 <br>
 
@@ -20,7 +20,7 @@ tej-tool-api 1.2.12 -> 1.3.1
 3. 財務資訊採用PIT規則，若在收盤前公布則屬於前日；收盤後公布則屬於當日，因此可能會與前版的財務資訊的日期不同。
 
 
-**Full Changelog**: https://github.com/tejtw/TEJ_TOOL_API/compare/1.2.11...1.3.1rc0
+**Full Changelog**: https://github.com/tejtw/TEJ_TOOL_API/compare/1.2.11...1.3.0rc0
 
 
 1.3.0版本刪除欄位
@@ -98,19 +98,19 @@ a200e | 母公司股東權益合計 | Total_Equity_Attributable_To_Owners_Of_Par
 a2900 | 非控制權益 | NCI
 a2000 | 股東權益總額 | Total_Equity
 a0020 | 負債及股東權益總額 | Total_Liabilities_And_Equity
-a3100 | 營業總收入 | Total_Operating_Revenue
+a3100 | 營業收入淨額 | Total_Operating_Revenue
 a3200 | 營業成本 | Total_Operating_Costs
-a3295 | 毛利 | Gross_Profit_Loss_From_Operations
+a3295 | 營業毛利 | Gross_Profit_Loss_From_Operations
 a3300 | 營業費用 | Total_Operating_Expenses
 a3395 | 營業利益 | Net_Operating_Income_Loss
 a3501 | 財務成本 | Finance_Costs_Net
 a3700 | 營業外收入及支出 | Total_Non_Operating_Income_And_Expenses
-a3900 | 利潤總額 | Profit_Loss_Before_Tax
+a3900 | 稅前淨利 | Profit_Loss_Before_Tax
 a3910 | 所得稅費用 | Income_Tax_Expense
 a3920 | 繼續營業單位損益 | Profit_Loss_From_Continuing_Operations
-a3970 | 淨利潤 | Total_CI
-a3950 | 母公司淨利 | Profit_Loss_Attributable_To_Owners_Of_Parent
-a3990 | 母公司每股盈餘 | Basic_Earnings_Per_Share
+a3970 | 合併總損益 | Total_CI
+a3950 | 歸屬母公司淨利_損 | Profit_Loss_Attributable_To_Owners_Of_Parent
+a3990 | 每股盈餘 | Basic_Earnings_Per_Share
 a211f | 加權平均股數 | Weighted_Average_Number_Of_Ordinary_Shares_In_Thousands
 a399z | 每股盈餘_基本_財報原值 | Basic_Earnings_Per_Share_MOPS
 a2111 | 普通股股數 | Common_Stock_Shares
